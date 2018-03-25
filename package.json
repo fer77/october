@@ -1,0 +1,22 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "description": "Laravel Elixer",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fer77/october.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fer77/october/issues"
+  },
+  "homepage": "https://github.com/fer77/october#readme"
+}
