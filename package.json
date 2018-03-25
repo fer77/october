@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/fer77/october/issues"
   },
-  "homepage": "https://github.com/fer77/october#readme"
+  "homepage": "https://github.com/fer77/october#readme",
+  "devDependencies": {
+    "laravel-elixir": "^6.0.0-17"
+  }
 }
