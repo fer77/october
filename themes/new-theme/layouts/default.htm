@@ -18,9 +18,10 @@ description = "Default layout"
     <body>
 
         <!-- Header -->
+        {% partial "header" %}
 
         <!-- Content -->
-        <section id="layout-content">
+        <section id="layout-content" class="container clearfix">
             {% page %}
         </section>
 
