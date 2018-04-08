@@ -1,0 +1,10 @@
+name: Movies
+form: $/fernando/movies/models/movie/fields.yaml
+modelClass: Fernando\Movies\Models\Movie
+defaultRedirect: fernando/movies/movies
+create:
+    redirect: 'fernando/movies/movies/update/:id'
+    redirectClose: fernando/movies/movies
+update:
+    redirect: fernando/movies/movies
+    redirectClose: fernando/movies/movies

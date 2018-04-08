@@ -1,0 +1,11 @@
+plugin:
+    name: 'fernando.movies::lang.plugin.name'
+    description: 'fernando.movies::lang.plugin.description'
+    author: fernando
+    icon: oc-icon-video-camera
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Movies
+        url: fernando/movies/movies
+        icon: icon-video-camera
