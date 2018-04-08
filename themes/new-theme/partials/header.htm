@@ -2,15 +2,9 @@
     <div class="container clearfix">
         <h1 class="logo">October Movies</h1>
 
-        <nav class="main-nav">
-            <ul>
-                <li>
-                    <a href="{{ 'homepage' | page }}">Home</a>
-                </li>
-                <li>
-                    <a href="{{ 'movies' | page }}">Movies</a>
-                </li>
-            </ul>
+        <nav class="nav">
+            <a class="nav-link {% if this.page.id == 'homepage' %} active {% else %} disabled {% endif %}" href="{{ 'homepage' | page }}">Home</a>
+            <a class="nav-link {% if this.page.id == 'movies' %} active {% else %} disabled {% endif %}" href="{{ 'movies' | page }}">Movies</a>
         </nav>
     </div>
 </header>
