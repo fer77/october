@@ -3,3 +3,6 @@
 1.0.2:
     - 'Created table fernando_movies_'
     - builder_table_create_fernando_movies_.php
+1.0.3:
+    - 'Updated table fernando_movies_'
+    - builder_table_update_fernando_movies_.php
