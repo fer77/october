@@ -30,3 +30,14 @@ fields:
         imageWidth: '100'
         imageHeight: '100'
         type: fileupload
+    movie_gallery:
+        label: 'movie gallery'
+        mode: image
+        imageWidth: '80'
+        imageHeight: '80'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

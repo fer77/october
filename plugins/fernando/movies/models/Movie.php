@@ -33,4 +33,7 @@ class Movie extends Model
      public $attachOne = [
          'poster' => 'System\Models\File'
      ];
+     public $attachMany = [
+        'movie_gallery' => 'System\Models\File'
+    ];
 }
