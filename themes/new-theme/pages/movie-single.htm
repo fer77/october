@@ -1,5 +1,5 @@
 title = "movie single"
-url = "/movies/:slug"
+url = "/movies/movie/:slug"
 layout = "default"
 is_hidden = 0
 
@@ -16,6 +16,8 @@ notFoundMessage = "Record not found"
 
 {% if record %}
 <h2>{{ record.name }}</h2>
+<img src="{{ record.poster.thumb(200,auto) }}">
+
 {{ record.year | raw }}
 <h3>Description</h3>
 {{ html_strip(record.description) | raw }}

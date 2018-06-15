@@ -25,4 +25,12 @@ class Movie extends Model
      * @var string The database table used by the model.
      */
     public $table = 'fernando_movies_';
+
+    /**
+     * Relations
+     */
+
+     public $attachOne = [
+         'poster' => 'System\Models\File'
+     ];
 }
