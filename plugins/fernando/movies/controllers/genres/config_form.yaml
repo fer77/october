@@ -1,0 +1,10 @@
+name: Genres
+form: $/fernando/movies/models/genre/fields.yaml
+modelClass: Fernando\Movies\Models\Genre
+defaultRedirect: fernando/movies/genres
+create:
+    redirect: 'fernando/movies/genres/update/:id'
+    redirectClose: fernando/movies/genres
+update:
+    redirect: fernando/movies/genres
+    redirectClose: fernando/movies/genres
