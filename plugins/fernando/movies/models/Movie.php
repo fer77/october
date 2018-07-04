@@ -30,9 +30,18 @@ class Movie extends Model
      * Relations
      */
 
+     public $belongsToMany = [
+         'genres' => [
+             'Fernando\Movies\Models\Genre',
+             'table' => 'fernando_movies_movies_genres',
+             'order' => 'genre_title'
+         ]
+    ];
+
      public $attachOne = [
          'poster' => 'System\Models\File'
      ];
+     
      public $attachMany = [
         'movie_gallery' => 'System\Models\File'
     ];

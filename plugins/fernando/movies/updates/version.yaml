@@ -9,3 +9,6 @@
 1.0.4:
     - 'Created table fernando_movies_genres'
     - builder_table_create_fernando_movies_genres.php
+1.0.5:
+    - 'Created table fernando_movies_movies_genres'
+    - builder_table_create_fernando_movies_movies_genres.php

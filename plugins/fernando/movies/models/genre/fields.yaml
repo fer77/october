@@ -10,3 +10,9 @@ fields:
             field: genre_title
             type: slug
         type: text
+    genre:
+        label: Genre
+        span: auto
+        nameFrom: genre_title
+        descriptionFrom: description
+        type: relation
