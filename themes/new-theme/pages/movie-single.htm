@@ -20,7 +20,12 @@ notFoundMessage = "Record not found"
 
 {{ record.year | raw }}
 <h3>Description</h3>
-{{ html_strip(record.description) | raw }}
+{{ record.description | raw }}
+
+<h3>Actors</h3>
+{% for actor in record.actors %}
+    {{ actor.actor_name }}
+    {{ actor.age }}
 
 <h3>Gallery</h3>
 
